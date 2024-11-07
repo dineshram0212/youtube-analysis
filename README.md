@@ -75,4 +75,4 @@ yt.plotViews(values=10, mostViewed=True, save=False)
 ```bash
 yt.plotVideoCount(save=False)
 ```
-```
+
