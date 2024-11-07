@@ -76,5 +76,3 @@ yt.plotViews(values=10, mostViewed=True, save=False)
 yt.plotVideoCount(save=False)
 ```
 ```
-
-Now, only the code blocks are in `bash`, while the rest of the text remains as regular Markdown.
