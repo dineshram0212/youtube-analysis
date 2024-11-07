@@ -1,4 +1,3 @@
-```markdown
 # ytanalysis
 
 `ytanalysis` is a Python package designed to analyze YouTube channel statistics using the YouTube Data API. With this package, you can retrieve information about a YouTube channel, including subscriber count, video details, views, likes, comments, and more. It also provides visualization tools to help analyze video views and monthly posting frequency.
