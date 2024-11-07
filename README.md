@@ -1,3 +1,4 @@
+```markdown
 # ytanalysis
 
 `ytanalysis` is a Python package designed to analyze YouTube channel statistics using the YouTube Data API. With this package, you can retrieve information about a YouTube channel, including subscriber count, video details, views, likes, comments, and more. It also provides visualization tools to help analyze video views and monthly posting frequency.
@@ -15,6 +16,7 @@ To install this package, use `pip`:
 
 ```bash
 pip install ytanalysis
+```
 
 ## Prerequisites
 
@@ -32,37 +34,48 @@ You need a YouTube Data API key to use this package. Follow these steps to obtai
 
 To initialize the `YTAnalysis` class, replace `YOUR_YOUTUBE_API_KEY` with your actual API key and `CHANNEL_URL` with the YouTube channel URL you want to analyze:
 
-```python
+```bash
 from ytanalysis import YTAnalysis
 
 api_key = "YOUR_YOUTUBE_API_KEY"
 channel_url = "https://www.youtube.com/channel/CHANNEL_ID"
 
 yt = YTAnalysis(channelURL=channel_url, apikey=api_key)
-
+```
 
 ### Methods
 
 #### Get Channel Details
 
-```python
+```bash
 channel_info = yt.getChannelDetail()
 print(channel_info)
+```
 
 #### Get Video Details
-```python
+
+```bash
 video_details = yt.getVideoDetail()
 print(video_details)
+```
 
-#### Export Details
-```python
+#### Export Data to CSV
+
+```bash
 yt.export_csv()
+```
 
-#### Plot Views
-```python
+#### Plot Most Viewed Videos
+
+```bash
 yt.plotViews(values=10, mostViewed=True, save=False)
+```
 
-#### Plot View Count
-```python
+#### Plot Monthly Video Counts
+
+```bash
 yt.plotVideoCount(save=False)
+```
+```
 
+Now, only the code blocks are in `bash`, while the rest of the text remains as regular Markdown.
